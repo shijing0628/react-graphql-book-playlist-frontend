@@ -3,6 +3,7 @@ import BookList from './components/BookList'
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from "react-apollo";
 import AddBook from './components/AddBook';
+import Footer from './components/Footer';
 
 
 
@@ -19,10 +20,13 @@ export class App extends Component {
         <ApolloProvider client={client}>
           <div className="main">
             <h1>Brenda's Reading List</h1>
+            <p className="desc">Get data from mongodb through graphql</p>
             <BookList />
             <AddBook />
+            <Footer />
           </div>
         </ApolloProvider>
+
       </>
     )
   }
