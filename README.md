@@ -1,7 +1,8 @@
 ### GraphQL - Apollo React book playlist front end part
 
 2021-2-4
-Backend repo: react-graphql-book-playlist
+Backend repo: react-graphql-book-playlist:
+https://github.com/shijing0628/react-graphql-book-playlist
 
 # Getting Started with Create React App
 
